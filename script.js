@@ -7,8 +7,8 @@ class Person {
 	get Name(){
 		return this.name
 	}
-	set age(Age){
-		this._age = Age;
+	set Age(A){
+		this._age = A;
     }
 }
 
@@ -34,3 +34,8 @@ class Teacher extends Person {
 window.Person = Person;
 window.Student = Student;
 window.Teacher = Teacher;
+
+
+
+
+
